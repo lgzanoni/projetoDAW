@@ -1,22 +1,9 @@
 {
-  "name": "package",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lgzanoni/projetoDAW.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lgzanoni/projetoDAW/issues"
-  },
-  "homepage": "https://github.com/lgzanoni/projetoDAW#readme",
   "dependencies": {
+    "@prisma/client": "^5.12.1",
     "node-telegram-bot-api": "^0.65.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.12.1"
   }
 }
